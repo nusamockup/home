@@ -93,7 +93,7 @@
                     </a>
                 </li>
                 <li class="nav-item me-2">
-                    <a href="#" class="btn">
+                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
                         Login | Register
                     </a>
                 </li>
@@ -1211,6 +1211,100 @@
             </div>
         </footer>
     </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false" aria-modal="true" role="dialog">
+        <div class="modal-dialog" style="width: 400px;">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="loginModalLabel">Sign in</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3"> <label class="form-label">Email</label> <input name="lorem" class="form-control" placeholder="ex. name@gmail.com" type="email"> </div>
+                        <!-- col end.// -->
+                        <div class="mb-3"> <label class="form-label">Password</label> <a class="float-end" href="#">Forgot?</a> <input class="form-control" placeholder="******" type="password"> </div>
+                        <!-- col end.// -->
+                        <div class="mb-3">
+                            <label class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" checked="">
+                                <span class="form-check-label"> Remember </span>
+                            </label>
+                        </div>
+                        <button class="btn w-100 btn-primary" type="button"> Sign in </button>
+                    </form>
+                    <p class="text-divider my-4">or login via</p>
+                    <a href="#" class="btn-facebook btn w-100 btn-light border-1 shadow-none"><i class="fa-brands fa-facebook"></i> Facebook Login</a>
+
+                    <p class="mb-1 text-center mt-4">Don’t have an account? <a href="javascript;" data-bs-target="#registerModal" data-bs-toggle="modal" data-bs-dismiss="modal">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold" id="registerModalLabel">Create Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a href="#" class="btn-facebook btn w-100 btn-light border-1 shadow-none"><i class="fa-brands fa-facebook"></i> Facebook Login</a>
+                    <p class="text-divider my-4">or create new account</p>
+                    <form>
+                        <div class="row gx-3">
+                            <div class="col mb-4"> <label class="form-label">Email</label> <input type="text" class="form-control" placeholder="">
+                            <small class="form-text">We'll never share your email</small>
+                        </div>
+                        <!-- col end.// -->
+                        <div class="col mb-4">
+                            <label class="form-label">Verify Email</label>
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+
+                        </div>
+                        <!-- row end.// -->
+                        <div class="row">
+                            <label class="form-label">Title</label>
+                            <div class="col-auto mb-3"><label class="form-check"> <input class="form-check-input" type="radio" name="choose_a" checked=""> <span class="form-check-label"> Mr </span> </label> </div>
+                            <!-- col end.// -->
+                            <div class="col-auto mb-3"> <label class="form-check"> <input class="form-check-input" type="radio" name="choose_a"> <span class="form-check-label"> Mrs </span> </label> </div>
+                            <!-- col end.// -->
+                            <div class="col-auto mb-3"> <label class="form-check"> <input class="form-check-input" type="radio" name="choose_a"> <span class="form-check-label"> Ms </span> </label> </div>
+                            <!-- col end.// -->
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col mb-4"> <label class="form-label">First name</label> <input type="text" class="form-control" placeholder=""> </div>
+                            <!-- col end.// -->
+                            <div class="col mb-4"> <label class="form-label">Last name</label> <input type="text" class="form-control" placeholder=""> </div>
+                            <!-- col end.// -->
+                        </div>
+                        <div class="row gx-3">
+                            <!-- col end.// -->
+                            <div class="col mb-3"> <label class="form-label">Create password</label> <input class="form-control" type="password"> </div>
+                            <!-- col end.// -->
+                            <div class="col mb-3"> <label class="form-label">Repeat password</label> <input class="form-control" type="password"> </div>
+                            <!-- col end.// -->
+                        </div>
+
+                        <div class="mb-3 mt-3">
+                            <label class="form-check">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <span class="form-check-label"> I agree with Terms and Conditions </span>
+                            </label>
+                        </div>
+                        <button class="btn w-100 btn-secondary" type="button"> Register now </button>
+                    </form>
+
+                    <p class="mb-1 text-center mt-4">Already have an account? <a href="javascript;" data-bs-target="#loginModal" data-bs-toggle="modal" data-bs-dismiss="modal">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
