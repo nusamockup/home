@@ -20,106 +20,104 @@
 
 <body>
 
-    <div class="alert alert-info alert-dismissible fade show py-2 mb-0" role="alert">
-        <div class="container text-center">
-            <strong>Travel Update!</strong> <a href="#">information about your trip</a> during Corona Virus Outbreak.
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="padding-top: 5px; font-size: 14px;"></button>
+    <div class="ns-iso">
+        <div class="alert alert-info alert-dismissible fade show py-2 mb-0" role="alert">
+            <div class="container text-center">
+                <strong>Travel Update!</strong> <a href="#">information about your trip</a> during Corona Virus Outbreak.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="padding-top: 5px; font-size: 14px;"></button>
+            </div>
         </div>
-    </div>
-    <nav class="ns-navbar">
-        <div class="container">
-            <ul class="nav currency-selector">
-                <li class="nav-item me-2 dropdown">
-                    <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><span class="me-1">IDR</span></a>
-
-                    <div class="dropdown-menu mega-menu animate slideIn">
-                        <ul>
-                            <li><a class="dropdown-item" href="#"><span>AED</span> - UAE Dirham</a></li>
-                            <li><a class="dropdown-item" href="#"><span>HKD</span> - Hongkong Dollar</a></li>
-                            <li><a class="dropdown-item" href="#"><span>PKR</span> - Pakistani Rupee</a></li>
-                            <li><a class="dropdown-item" href="#"><span>AUD</span> - Australian Dollar</a></li>
-                            <li class="selected"><a class="dropdown-item" href="#"><span>IDR</span> - Indonesian Rupiah</a></li>
-                            <li><a class="dropdown-item" href="#"><span>RUB</span> - Russian Rouble</a></li>
+        <nav class="ns-navbar">
+            <div class="container">
+                <ul class="nav currency-selector">
+                    <li class="nav-item me-2 dropdown">
+                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><span class="me-1">IDR</span></a>
+                        <div class="dropdown-menu mega-menu animate slideIn">
+                            <ul>
+                                <li><a class="dropdown-item" href="#"><span>AED</span> - UAE Dirham</a></li>
+                                <li><a class="dropdown-item" href="#"><span>HKD</span> - Hongkong Dollar</a></li>
+                                <li><a class="dropdown-item" href="#"><span>PKR</span> - Pakistani Rupee</a></li>
+                                <li><a class="dropdown-item" href="#"><span>AUD</span> - Australian Dollar</a></li>
+                                <li class="selected"><a class="dropdown-item" href="#"><span>IDR</span> - Indonesian Rupiah</a></li>
+                                <li><a class="dropdown-item" href="#"><span>RUB</span> - Russian Rouble</a></li>
+                            </ul>
+                            <ul>
+                                <li><a class="dropdown-item" href="#"><span>BDT</span> - Bangladeshi Taka</a></li>
+                                <li><a class="dropdown-item" href="#"><span>INR</span> - Indian Rupee</a></li>
+                                <li><a class="dropdown-item" href="#"><span>SAR</span> - Saudi Riyal</a></li>
+                                <li><a class="dropdown-item" href="#"><span>CAD</span> - Canadian Dollar</a></li>
+                                <li><a class="dropdown-item" href="#"><span>JPY</span> - Japanese Yen</a></li>
+                                <li><a class="dropdown-item" href="#"><span>SGD</span> - Singapore Dollar</a></li>
+                            </ul>
+                            <ul>
+                                <li><a class="dropdown-item" href="#"><span>CHF</span> - Swiss franc</a></li>
+                                <li><a class="dropdown-item" href="#"><span>KRW</span> - South Korean Won</a></li>
+                                <li><a class="dropdown-item" href="#"><span>THB</span> - Thai Baht</a></li>
+                                <li><a class="dropdown-item" href="#"><span>CNY</span> - Chinese Yuan</a></li>
+                                <li><a class="dropdown-item" href="#"><span>MYR</span> - Malaysian ringgit</a></li>
+                                <li><a class="dropdown-item" href="#"><span>TWD</span> - New Taiwan Dollar</a></li>
+                            </ul>
+                            <ul>
+                                <li><a class="dropdown-item" href="#"><span>EUR</span> - Euro</a></li>
+                                <li><a class="dropdown-item" href="#"><span>NZD</span> - New Zealand Dollar</a></li>
+                                <li><a class="dropdown-item" href="#"><span>USD</span> - United States Dollar</a></li>
+                                <li><a class="dropdown-item" href="#"><span>GBP</span> - Pound Sterling</a></li>
+                                <li><a class="dropdown-item" href="#"><span>PHP</span> - Philippine Peso</a></li>
+                                <li><a class="dropdown-item" href="#"><span>VND</span> - Vietnamese Dong</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item me-2">|</li> -->
+                    <li class="nav-item me-2 dropdown">
+                        <a href="#" class="nav-link px-2 py-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>
+                                <img src="img/english.png" height="14" alt="english language" lang="en">
+                                <!-- <img src="//sta.nusatrip.com/static/img/front/V2/eng.png" width="16" height="11" alt="english language" lang="en"> -->
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animate slideIn" aria-labelledby="langSelector">
+                            <li><a class="dropdown-item d-flex align-items-center" href="#">
+                                    <img src="img/bahasa.png" class="me-2" height="12" alt="bahasa language" lang="en"> Bahasa
+                                </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center" href="#">
+                                    <img src="img/english.png" class="me-2" height="12" alt="english language" lang="en"> English</a></li>
+                            <!-- <li><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="img/singapore.png" class="me-2" height="12" alt="singapore language" lang="en"> Singapore</a></li> -->
+                            <!-- <li><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="img/malaysia.png" class="me-2" height="12" alt="malaysia language" lang="en"> Malaysia</a></li> -->
                         </ul>
-                        <ul>
-                            <li><a class="dropdown-item" href="#"><span>BDT</span> - Bangladeshi Taka</a></li>
-                            <li><a class="dropdown-item" href="#"><span>INR</span> - Indian Rupee</a></li>
-                            <li><a class="dropdown-item" href="#"><span>SAR</span> - Saudi Riyal</a></li>
-                            <li><a class="dropdown-item" href="#"><span>CAD</span> - Canadian Dollar</a></li>
-                            <li><a class="dropdown-item" href="#"><span>JPY</span> - Japanese Yen</a></li>
-                            <li><a class="dropdown-item" href="#"><span>SGD</span> - Singapore Dollar</a></li>
-                        </ul>
-                        <ul>
-                            <li><a class="dropdown-item" href="#"><span>CHF</span> - Swiss franc</a></li>
-                            <li><a class="dropdown-item" href="#"><span>KRW</span> - South Korean Won</a></li>
-                            <li><a class="dropdown-item" href="#"><span>THB</span> - Thai Baht</a></li>
-                            <li><a class="dropdown-item" href="#"><span>CNY</span> - Chinese Yuan</a></li>
-                            <li><a class="dropdown-item" href="#"><span>MYR</span> - Malaysian ringgit</a></li>
-                            <li><a class="dropdown-item" href="#"><span>TWD</span> - New Taiwan Dollar</a></li>
-                        </ul>
-                        <ul>
-                            <li><a class="dropdown-item" href="#"><span>EUR</span> - Euro</a></li>
-                            <li><a class="dropdown-item" href="#"><span>NZD</span> - New Zealand Dollar</a></li>
-                            <li><a class="dropdown-item" href="#"><span>USD</span> - United States Dollar</a></li>
-                            <li><a class="dropdown-item" href="#"><span>GBP</span> - Pound Sterling</a></li>
-                            <li><a class="dropdown-item" href="#"><span>PHP</span> - Philippine Peso</a></li>
-                            <li><a class="dropdown-item" href="#"><span>VND</span> - Vietnamese Dong</a></li>
-                        </ul>
-                    </div>
-
-                </li>
-                <!-- <li class="nav-item me-2">|</li> -->
-                <li class="nav-item me-2 dropdown">
-                    <a href="#" class="nav-link px-2 py-1 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span>
-                            <img src="img/english.png" height="14" alt="english language" lang="en">
-                            <!-- <img src="//sta.nusatrip.com/static/img/front/V2/eng.png" width="16" height="11" alt="english language" lang="en"> -->
-                        </span>
-                    </a>
-                    <ul class="dropdown-menu animate slideIn" aria-labelledby="langSelector">
-                        <li><a class="dropdown-item d-flex align-items-center" href="#">
-                                <img src="img/bahasa.png" class="me-2" height="12" alt="bahasa language" lang="en"> Bahasa
-                            </a></li>
-                        <li><a class="dropdown-item d-flex align-items-center" href="#">
-                                <img src="img/english.png" class="me-2" height="12" alt="english language" lang="en"> English</a></li>
-                        <!-- <li><a class="dropdown-item d-flex align-items-center" href="#">
-                            <img src="img/singapore.png" class="me-2" height="12" alt="singapore language" lang="en"> Singapore</a></li> -->
-                        <!-- <li><a class="dropdown-item d-flex align-items-center" href="#">
-                            <img src="img/malaysia.png" class="me-2" height="12" alt="malaysia language" lang="en"> Malaysia</a></li> -->
-                    </ul>
-                </li>
-                <li class="nav-item me-2">
-                    <a href="#" class="nav-link link-dark px-2 py-1">
-                        <i class="fas fa-user me-2"></i><strong>Hi, Guest</strong>
-                    </a>
-                </li>
-                <li class="nav-item me-2">
-                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
-                        Login | Register
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <section class="main-header">
-        <div class="container">
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4">
-                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img src="img/logonusatrip.svg" role="img" alt="Nusatrip Logo" width="190">
-                </a>
-
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-center gap-2 mb-md-0">
-                    <li><a href="#" class="nav-link px-2 link-gray">Flights</a></li>
-                    <li><a href="#" class="nav-link px-2 link-gray">Hotels</a></li>
-                    <li><a href="#" class="nav-link px-2 link-gray">My Booking</a></li>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#" class="nav-link link-dark px-2 py-1">
+                            <i class="fas fa-user me-2"></i><strong>Hi, Guest</strong>
+                        </a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            Login | Register
+                        </a>
+                    </li>
                 </ul>
-
-                <div class="col-md-3 text-end">
-                    <a href="#" class="nav-link px-2 link-gray">Customer Care</a>
-                </div>
-            </header>
-        </div>
-    </section>
+            </div>
+        </nav>
+        <section class="main-header">
+            <div class="container">
+                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4">
+                    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                        <img src="img/logonusatrip.svg" role="img" alt="Nusatrip Logo" width="190">
+                    </a>
+                    <ul class="nav col-12 col-md-auto mb-2 justify-content-center gap-2 mb-md-0">
+                        <li><a href="#" class="nav-link px-2 link-gray">Flights</a></li>
+                        <li><a href="#" class="nav-link px-2 link-gray">Hotels</a></li>
+                        <li><a href="#" class="nav-link px-2 link-gray">My Booking</a></li>
+                    </ul>
+                    <div class="col-md-3 text-end">
+                        <a href="#" class="nav-link px-2 link-gray">Customer Care</a>
+                    </div>
+                </header>
+            </div>
+        </section>
+    </div>
     <section class="seasonal-banner" style="background: #f6dc9f;">
         <div class="container">
             <img src="img/chinese-new-year2.jpg" alt="" srcset="img/chinese-new-year2@2x.jpg 2x">
@@ -1029,149 +1027,63 @@
         </div>
     </div>
 
-    <section class="footer-top">
-        <div class="container">
-            <div class="row">
-                <p class="mb-1">Popular Airlines:</p>
-                <ul class="mb-4">
-                    <li><a href="/en/flights/garuda-indonesia">Garuda Indonesia</a></li>
-                    <li><a href="/en/flights/lion-air">Lion Air</a></li>
-                    <li><a href="/en/flights/airasia">Air Asia</a></li>
-                    <li><a href="/en/flights/scoot">Scoot</a></li>
-                    <li><a href="/en/flights/sriwijaya-air">Sriwijaya</a></li>
-                    <li><a href="/en/flights/citilink">Citilink</a></li>
-                    <li><a href="/en/flights/batik-air">Batik Air</a></li>
-                    <li><a href="/en/flights/wings-air">Wings Air</a></li>
-                    <li><a href="/en/flights/transnusa">Transnusa</a></li>
-                    <li><a href="/en/flights/trigana-air">Trigana Air</a></li>
-                    <li><a href="/en/flights/firefly">Firefly</a></li>
-                    <li><a href="/en/flights/malindo-air">Malindo Air</a></li>
-                    <li><a href="/en/flights/thai-lion-air">Thai Lion Air</a></li>
-                    <li><a href="/en/flights/jetstar">Jetstar</a></li>
-                    <li><a href="/en/flights/malaysia-airlines">Malaysia Airlines</a></li>
-                    <li><a href="/en/flights/singapore-airlines">Singapore Airlines</a></li>
-                    <li><a href="/en/flights/silkair">Silk Air</a></li>
-                    <li><a href="/en/flights/cathay-pacific">Cathay Pacific</a></li>
-                    <li><a href="/en/flights/klm">KLM</a></li>
-                    <li><a href="/en/flights/air-france">Air France</a></li>
-                    <li><a href="/en/flights/lufthansa">Lufthansa</a></li>
-                    <li><a href="/en/flights/etihad-airways">Etihad</a></li>
-                    <li><a href="/en/flights/qatar-airways">Qatar Airlways</a></li>
-                    <li><a href="/en/flights/emirates">Emirates</a></li>
-                    <li><a href="/en/flights/turkish-airlines">Turkish Airlines</a></li>
-                    <li><a href="/en/flights/saudi-arabian-airlines">Saudi Arabian Airlines</a></li>
-                    <li><a href="/en/flights/philippine-airlines">Philippine Airlines</a></li>
-                    <li><a href="/en/flights/thai-airways">Thai Airways</a></li>
-                    <li><a href="/en/flights/china-southern-airlines">China Southern</a></li>
-                    <li><a href="/en/flights/china-eastern">China Eastern</a></li>
-                    <li><a href="/en/flights/china-airlines">China Airlines</a></li>
-                    <li><a href="/en/flights/air-china">Air China</a></li>
-                    <li><a href="/en/flights/vietnam-airlines">Vietnam Airlines</a></li>
-                    <li><a href="/en/flights/korean-air">Korean Air</a></li>
-                    <li><a href="/en/flights/asiana">Asiana</a></li>
-                    <li><a href="/en/flights/japan-airlines">Japan Airlines</a></li>
-                    <li><a href="/en/flights/united-airlines">United Airlines</a></li>
-                    <li><a href="/en/flights/qantas">Qantas</a></li>
-                    <li><a href="/en/flights/eva-air">Eva Air</a></li>
-                    <li><a href="/en/flights/sriwijaya-air">SriLankan Airlines</a></li>
-                    <li><a href="/en/flights/american-airlines">American Airlines</a></li>
-                    <li><a href="/en/flights/oman-air">Oman Air</a></li>
-                    <li><a href="/en/flights/british-airways">British Airways</a></li>
-                    <li><a href="/en/flights/all-nippon-airways">All Nippon Airways</a></li>
-                    <li><a href="/en/flights/royal-brunei">Royal Brunei</a></li>
-                    <li><a href="/en/flights/air-canada">Air Canada</a></li>
-                    <li><a href="/en/flights/air-new-zealand">Air New Zealand</a></li>
-                    <li><a href="/en/flights/air-india">Air India</a></li>
-                    <li><a href="/en/flights/alitalia">Alitalia</a></li>
-                </ul>
-
-                <p class="mt-2 mb-1">Member of:</p>
-                <ul class="logo-items list-unstyled">
-                    <li class="new-asita-logo float-start me-2">
-                        <img src="img/asita.svg" width="50" alt="">
-                    </li>
-                    <li class="new-iata-logo float-start">
-                        <img src="img/iata.svg" width="60" alt="">
-                    </li>
-                </ul>
-                <p class="mb-1">Payment:</p>
-                <p class="fw-normal">
-                    ATM | SMS | Online banking | Cash | Credit card<br>
-                    <span class="mt-2">
-                        <a class="me-2" href="en/howto/payment">Our Payment Method</a> <a class="me-2" href="en/howto/payment#bankTransfer">How to ATM and Bank Transfer</a> <a class="me-2" href="en/howto/payment#creditCardPayment">How to Credit Card Payment</a>
-                    </span>
-                </p>
-                <ul class="logo-items">
-                    <li class="atm-bersama-logo">
-                        <img src="img/bank-logo/atm-bersama.svg" alt="">
-                    </li>
-                    <li class="new-prima-logo">
-                        <img src="img/bank-logo/prima.svg" alt="">
-                    </li>
-                    <li class="new-bca-logo">
-                        <img src="img/bank-logo/bca.svg" alt="">
-                    </li>
-                    <li class="new-mandiri-logo">
-                        <img src="img/bank-logo/mandiri-2.svg" alt="">
-                    </li>
-                    <li class="new-bni-logo">
-                        <img src="img/bank-logo/bni.svg" alt="">
-                    </li>
-                    <li class="new-bri-logo">
-                        <img src="img/bank-logo/bri.svg" alt="">
-                    </li>
-                    <li class="new-maybank-logo">
-                        <img src="img/bank-logo/maybank.svg" alt="">
-                    </li>
-                    <li class="new-cimb-logo">
-                        <img src="img/bank-logo/cimb.svg" alt="">
-                    </li>
-                    <li class="new-mastercard-logo">
-                        <img src="img/bank-logo/mastercard.svg" alt="">
-                    </li>
-                    <li class="new-visa-logo">
-                        <img src="img/bank-logo/visa.svg" alt="">
-                    </li>
-                    <li class="new-jcb-logo">
-                        <img src="img/bank-logo/jcb.svg" alt="">
-                    </li>
-                    <li class="new-amex-logo">
-                        <img src="img/bank-logo/amex.svg" alt="">
-                    </li>
-                </ul>
-
-
-
-                <p class="mt-2 mb-1">Country:</p>
-                <ul class="country">
-                    <li><a href="">Indonesia</a></li>
-                    <li><a href="">Malaysia</a></li>
-                    <li><a href="">Singapore</a></li>
-                    <li><a href="">Thailand</a></li>
-                    <li><a href="">Philipines</a></li>
-                    <li><a href="">Vietnam</a></li>
-                </ul>
-
-                <div class="mt-5 pt-4 border-top">
-                    <p class="mb-1 fw-bold">Layanan Pengaduan Konsumen</p>
-                    <p class="fw-normal">Ditjen Perlindungan Konsumen dan Tertib Niaga Kementerian Perdagangan Republik Indonesia <a class="ph-num ms-2" to="/6285311111010" href="https://wa.me/6285311111010" target="_blank"><i class="fa-brands fa-whatsapp"></i> 0853-1111-1010</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="container">
-        <footer class="pt-5">
-            <div class="row">
-
-                <div class="col-12 col-md-3 mb-3">
-                    <div class="mb-6">
-                        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                            <img src="img/sopa-logo-01.svg" width="170" alt="">
-                        </a>
-                        <p class="fs-6 fw-bold">Society Pass Ecosystem</p>
-
-                        <!-- <p class="mt-2">Member of:</p>
+    <div class="ns-iso">
+        <section class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <p class="mb-1">Popular Airlines:</p>
+                    <ul class="mb-4">
+                        <li><a href="/en/flights/garuda-indonesia">Garuda Indonesia</a></li>
+                        <li><a href="/en/flights/lion-air">Lion Air</a></li>
+                        <li><a href="/en/flights/airasia">Air Asia</a></li>
+                        <li><a href="/en/flights/scoot">Scoot</a></li>
+                        <li><a href="/en/flights/sriwijaya-air">Sriwijaya</a></li>
+                        <li><a href="/en/flights/citilink">Citilink</a></li>
+                        <li><a href="/en/flights/batik-air">Batik Air</a></li>
+                        <li><a href="/en/flights/wings-air">Wings Air</a></li>
+                        <li><a href="/en/flights/transnusa">Transnusa</a></li>
+                        <li><a href="/en/flights/trigana-air">Trigana Air</a></li>
+                        <li><a href="/en/flights/firefly">Firefly</a></li>
+                        <li><a href="/en/flights/malindo-air">Malindo Air</a></li>
+                        <li><a href="/en/flights/thai-lion-air">Thai Lion Air</a></li>
+                        <li><a href="/en/flights/jetstar">Jetstar</a></li>
+                        <li><a href="/en/flights/malaysia-airlines">Malaysia Airlines</a></li>
+                        <li><a href="/en/flights/singapore-airlines">Singapore Airlines</a></li>
+                        <li><a href="/en/flights/silkair">Silk Air</a></li>
+                        <li><a href="/en/flights/cathay-pacific">Cathay Pacific</a></li>
+                        <li><a href="/en/flights/klm">KLM</a></li>
+                        <li><a href="/en/flights/air-france">Air France</a></li>
+                        <li><a href="/en/flights/lufthansa">Lufthansa</a></li>
+                        <li><a href="/en/flights/etihad-airways">Etihad</a></li>
+                        <li><a href="/en/flights/qatar-airways">Qatar Airlways</a></li>
+                        <li><a href="/en/flights/emirates">Emirates</a></li>
+                        <li><a href="/en/flights/turkish-airlines">Turkish Airlines</a></li>
+                        <li><a href="/en/flights/saudi-arabian-airlines">Saudi Arabian Airlines</a></li>
+                        <li><a href="/en/flights/philippine-airlines">Philippine Airlines</a></li>
+                        <li><a href="/en/flights/thai-airways">Thai Airways</a></li>
+                        <li><a href="/en/flights/china-southern-airlines">China Southern</a></li>
+                        <li><a href="/en/flights/china-eastern">China Eastern</a></li>
+                        <li><a href="/en/flights/china-airlines">China Airlines</a></li>
+                        <li><a href="/en/flights/air-china">Air China</a></li>
+                        <li><a href="/en/flights/vietnam-airlines">Vietnam Airlines</a></li>
+                        <li><a href="/en/flights/korean-air">Korean Air</a></li>
+                        <li><a href="/en/flights/asiana">Asiana</a></li>
+                        <li><a href="/en/flights/japan-airlines">Japan Airlines</a></li>
+                        <li><a href="/en/flights/united-airlines">United Airlines</a></li>
+                        <li><a href="/en/flights/qantas">Qantas</a></li>
+                        <li><a href="/en/flights/eva-air">Eva Air</a></li>
+                        <li><a href="/en/flights/sriwijaya-air">SriLankan Airlines</a></li>
+                        <li><a href="/en/flights/american-airlines">American Airlines</a></li>
+                        <li><a href="/en/flights/oman-air">Oman Air</a></li>
+                        <li><a href="/en/flights/british-airways">British Airways</a></li>
+                        <li><a href="/en/flights/all-nippon-airways">All Nippon Airways</a></li>
+                        <li><a href="/en/flights/royal-brunei">Royal Brunei</a></li>
+                        <li><a href="/en/flights/air-canada">Air Canada</a></li>
+                        <li><a href="/en/flights/air-new-zealand">Air New Zealand</a></li>
+                        <li><a href="/en/flights/air-india">Air India</a></li>
+                        <li><a href="/en/flights/alitalia">Alitalia</a></li>
+                    </ul>
+                    <p class="mt-2 mb-1">Member of:</p>
                     <ul class="logo-items list-unstyled">
                         <li class="new-asita-logo float-start me-2">
                             <img src="img/asita.svg" width="50" alt="">
@@ -1179,89 +1091,160 @@
                         <li class="new-iata-logo float-start">
                             <img src="img/iata.svg" width="60" alt="">
                         </li>
-                    </ul> -->
-                    </div>
-                </div>
-
-                <div class="row col-md-8 mb-3 pb-3  offset-md-1" style="font-size: 14px;">
-                    <!-- <div class="d-flex col align-items-center mb-3" style="border-bottom: 1px solid #dee2e6;">
-                    <h6 class="d-inline-block mb-0 me-2">Country:</h6>
-                    <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Indonesia</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Malaysia</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Singapore</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Thailand</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Philipines</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Vietnam</a>
-                </div> -->
-
-
-                    <div class="col-6 col-md-3 mb-3">
-                        <!-- <h6 class="mb-3">Others</h6> -->
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Flights</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Hotels</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">My Booking</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Customer Care</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Career</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-6 col-md-3 mb-3">
-                        <!-- <h6 class="mb-3">Support & Help</h6> -->
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Customer Care</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Booking</a></li>
-                            <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Payment</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-12 col-md-6 mb-3">
-                        <h6 class="mb-3">Don't miss our exclusive offers</h6>
-                        <form class="mb-4">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Email"> <button class="btn btn-primary" type="submit"> Join </button>
-                            </div>
-                        </form>
-
-                        <!-- <h6 class="mb-3">Country</h6>
-                <a class="text-link" href="">Indonesia</a> | <a class="text-link" href="">Malaysia</a> | <a class="text-link" href="">Singapore</a> | <a class="text-link" href="">Thailand</a> | <a class="text-link" href="">Philipines</a> | <a class="text-link" href="">Vietnam</a> -->
-
-
-                        <!-- <h6 class="mb-3"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</h6> -->
-                        <h6 class="mb-3">Get Mobile Apps</h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2">
-                                <a href="#" class="d-inline-block"><img src="img/btn-appstore.webp" height="40"></a>
-                                <a href="#" class="d-inline-block"><img src="img/btn-market.webp" height="40"></a>
-                            </li>
-                            <li class="nav-item">
-                                <span class="">
-                                    <a href="#" class="nav-link p-0 d-inline-block text-muted">Visit Our Mobile Site</a>
-                                </span>
-                            </li>
-                        </ul>
+                    </ul>
+                    <p class="mb-1">Payment:</p>
+                    <p class="fw-normal">
+                        ATM | SMS | Online banking | Cash | Credit card<br>
+                        <span class="mt-2">
+                            <a class="me-2" href="en/howto/payment">Our Payment Method</a> <a class="me-2" href="en/howto/payment#bankTransfer">How to ATM and Bank Transfer</a> <a class="me-2" href="en/howto/payment#creditCardPayment">How to Credit Card Payment</a>
+                        </span>
+                    </p>
+                    <ul class="logo-items">
+                        <li class="atm-bersama-logo">
+                            <img src="img/bank-logo/atm-bersama.svg" alt="">
+                        </li>
+                        <li class="new-prima-logo">
+                            <img src="img/bank-logo/prima.svg" alt="">
+                        </li>
+                        <li class="new-bca-logo">
+                            <img src="img/bank-logo/bca.svg" alt="">
+                        </li>
+                        <li class="new-mandiri-logo">
+                            <img src="img/bank-logo/mandiri-2.svg" alt="">
+                        </li>
+                        <li class="new-bni-logo">
+                            <img src="img/bank-logo/bni.svg" alt="">
+                        </li>
+                        <li class="new-bri-logo">
+                            <img src="img/bank-logo/bri.svg" alt="">
+                        </li>
+                        <li class="new-maybank-logo">
+                            <img src="img/bank-logo/maybank.svg" alt="">
+                        </li>
+                        <li class="new-cimb-logo">
+                            <img src="img/bank-logo/cimb.svg" alt="">
+                        </li>
+                        <li class="new-mastercard-logo">
+                            <img src="img/bank-logo/mastercard.svg" alt="">
+                        </li>
+                        <li class="new-visa-logo">
+                            <img src="img/bank-logo/visa.svg" alt="">
+                        </li>
+                        <li class="new-jcb-logo">
+                            <img src="img/bank-logo/jcb.svg" alt="">
+                        </li>
+                        <li class="new-amex-logo">
+                            <img src="img/bank-logo/amex.svg" alt="">
+                        </li>
+                    </ul>
+                    <p class="mt-2 mb-1">Country:</p>
+                    <ul class="country">
+                        <li><a href="">Indonesia</a></li>
+                        <li><a href="">Malaysia</a></li>
+                        <li><a href="">Singapore</a></li>
+                        <li><a href="">Thailand</a></li>
+                        <li><a href="">Philipines</a></li>
+                        <li><a href="">Vietnam</a></li>
+                    </ul>
+                    <div class="mt-5 pt-4 border-top">
+                        <p class="mb-1 fw-bold">Layanan Pengaduan Konsumen</p>
+                        <p class="fw-normal">Ditjen Perlindungan Konsumen dan Tertib Niaga Kementerian Perdagangan Republik Indonesia <a class="ph-num ms-2" to="/6285311111010" href="https://wa.me/6285311111010" target="_blank"><i class="fa-brands fa-whatsapp"></i> 0853-1111-1010</a></p>
                     </div>
                 </div>
             </div>
-
-            <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 border-top">
-                <p>© 2023 PT Tunas Sukses Mandiri. All rights reserved.</p>
-                <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-dark" href="#">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a></li>
-                    <li class="ms-3"><a class="link-dark" href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a></li>
-                    <li class="ms-3"><a class="link-dark" href="#">
-                            <i class="fa-brands fa-tiktok"></i>
-                        </a></li>
-                    <li class="ms-3"><a class="link-dark" href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a></li>
-                    <li class="ms-3"><a class="link-dark text-decoration-none fw-bold" href="#">
-                            blog
-                        </a></li>
-                </ul>
-            </div>
-        </footer>
+        </section>
+        <div class="container">
+            <footer class="pt-5">
+                <div class="row">
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="mb-6">
+                            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                                <img src="img/sopa-logo-01.svg" width="170" alt="">
+                            </a>
+                            <p class="fs-6 fw-bold">Society Pass Ecosystem</p>
+                            <!-- <p class="mt-2">Member of:</p>
+                        <ul class="logo-items list-unstyled">
+                            <li class="new-asita-logo float-start me-2">
+                                <img src="img/asita.svg" width="50" alt="">
+                            </li>
+                            <li class="new-iata-logo float-start">
+                                <img src="img/iata.svg" width="60" alt="">
+                            </li>
+                        </ul> -->
+                        </div>
+                    </div>
+                    <div class="row col-md-8 mb-3 pb-3  offset-md-1" style="font-size: 14px;">
+                        <!-- <div class="d-flex col align-items-center mb-3" style="border-bottom: 1px solid #dee2e6;">
+                        <h6 class="d-inline-block mb-0 me-2">Country:</h6>
+                        <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Indonesia</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Malaysia</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Singapore</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Thailand</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Philipines</a> | <a class="btn btn-link px-1 text-gray text-decoration-none" href="">Vietnam</a>
+                    </div> -->
+                        <div class="col-6 col-md-3 mb-3">
+                            <!-- <h6 class="mb-3">Others</h6> -->
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Flights</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Hotels</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">My Booking</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Customer Care</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Career</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <!-- <h6 class="mb-3">Support & Help</h6> -->
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Customer Care</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Booking</a></li>
+                                <li class="nav-item mb-1"><a href="#" class="nav-link p-0 text-muted">Payment</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <h6 class="mb-3">Don't miss our exclusive offers</h6>
+                            <form class="mb-4">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="Email"> <button class="btn btn-primary" type="submit"> Join </button>
+                                </div>
+                            </form>
+                            <!-- <h6 class="mb-3">Country</h6>
+                    <a class="text-link" href="">Indonesia</a> | <a class="text-link" href="">Malaysia</a> | <a class="text-link" href="">Singapore</a> | <a class="text-link" href="">Thailand</a> | <a class="text-link" href="">Philipines</a> | <a class="text-link" href="">Vietnam</a> -->
+                            <!-- <h6 class="mb-3"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</h6> -->
+                            <h6 class="mb-3">Get Mobile Apps</h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="d-inline-block"><img src="img/btn-appstore.webp" height="40"></a>
+                                    <a href="#" class="d-inline-block"><img src="img/btn-market.webp" height="40"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="">
+                                        <a href="#" class="nav-link p-0 d-inline-block text-muted">Visit Our Mobile Site</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 border-top">
+                    <p>© 2023 PT Tunas Sukses Mandiri. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a></li>
+                        <li class="ms-3"><a class="link-dark" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a></li>
+                        <li class="ms-3"><a class="link-dark" href="#">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a></li>
+                        <li class="ms-3"><a class="link-dark" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a></li>
+                        <li class="ms-3"><a class="link-dark text-decoration-none fw-bold" href="#">
+                                blog
+                            </a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
     </div>
 
 
